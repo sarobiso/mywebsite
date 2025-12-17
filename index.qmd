@@ -1,19 +1,13 @@
+
 ---
-title: "About Me"
-about:
-  id: me
-  template: broadside
-  image: img/profile.png
+title: ""
+page-layout: full
 ---
 
-:::{#me}
+<div class="video-full">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oVA-PzLt67Y?si=2iIyBLpMpFJWtSoS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-## Goals
 
-## Education
-
-## Experience
-
-:::
-
-Thanks for checking out my web site!
+<style>
+html, body { height: 100%; margin: 0; background: #000; }.video-full { position: fixed; inset: 0; background: #000; }.video-full iframe { width: 100%; height: 100%; border: 0; display: block; }
